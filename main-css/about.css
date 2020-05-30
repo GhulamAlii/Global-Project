@@ -1,0 +1,21 @@
+.global-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.highlight{
+    background-color: #FFA600;
+    color: white;
+    width: 20px;
+    margin-right: 5px;
+    padding: 8px 14px;
+
+}
+.heading h2{
+    font-weight: bold !important;
+    font-size: 3em !important;
+}
+.data{
+    
+    letter-spacing: 0.5px;
+}

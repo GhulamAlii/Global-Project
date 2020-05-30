@@ -1,0 +1,212 @@
+@import url(./main-css/about.css);
+@import url(./main-css/contact.css);
+@import url(./course-detail/course-detail.css);
+@import url(./main-css/course.css);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Cabin', sans-serif !important;
+    line-height: 2em !important;
+    background-color: gainsboro;
+}
+
+
+.nav-item{
+    margin: auto 5px;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Ubuntu', sans-serif !important;
+}
+/* Title (Hero section) */
+
+.hero {
+    background: url(https://images.pexels.com/photos/3803950/pexels-photo-3803950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40em;
+
+}
+
+
+.lead {
+
+    transition: all ease-in .5s;
+}
+
+.display-3 {
+
+    transition: all ease-in .5s;
+}
+
+/* Feature section */
+
+#features {
+    background-color: white;
+    padding: 7% 15%;
+    text-align: center;
+    position: relative;
+
+}
+
+.features-box {
+    padding: 4.5%;
+}
+
+.icon {
+    margin-bottom: 1rem;    
+    color: #FFC107;
+}
+
+.icon:hover {
+    color: rgb(255, 228, 110);
+}
+
+/* Intro Section */
+
+#intro-section{
+    background-color:rgb(240, 240, 240);
+}
+
+/* Objective */
+
+
+.objective-img .image {
+    background-image: url(images/objective.jpg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+
+/* Course section */
+.card-heading{
+    color:  rgb(255, 153, 0);
+}
+.card .btn-outline-warning{
+    color:  rgb(255, 153, 0) !important;
+}
+.btn-outline-warning:hover{
+    color:  white !important;
+}
+
+
+/*testimonial*/
+
+
+#testimonials{
+    background-color: #FFC107;
+    text-align: center;
+    font-size: 20px;
+}
+
+.testimonial-img{
+    margin: 20px;
+    width: 10%;
+    border-radius: 100%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Footer */
+
+footer .container{
+    padding: 4%  2%;
+}
+
+footer ul{
+    list-style: none;
+    margin: 10px 10px ;
+}
+.social ul{
+    display: flex;
+    font-size: 12px !important;
+}
+
+.social li{
+    margin: 9px;
+}
+footer a{
+    color: #F8F9FA;
+}
+
+.s-icon:hover {
+    color: rgb(255, 187, 0);
+}
+/* margin setting */
+.pt-14,
+.py-14 {
+    padding-top: 8rem !important;
+}
+
+.pb-12,
+.py-12 {
+    padding-bottom: 4rem !important;
+}
+
+.mt-n13,
+.my-n13 {
+    margin-top: -8rem !important;
+}
+
+.mr-6,
+.mx-6 {
+    margin-right: 3rem !important;
+}
+
+.pb-lg-14,
+.py-lg-14 {
+    padding-bottom: 10rem !important;
+}
+
+.pt-lg-16,
+.py-lg-16 {
+    padding-top: 10rem !important;
+}
+
+
+/* media query section */
+@media (max-width:700px) {
+    .display-3 {
+        font-size: 2.3em !important;
+        transition: all ease-in .5s;
+    }
+
+    @media screen and (max-width: 800px) {
+        .objective-heading {
+            text-align: center !important;
+
+        }
+    }
+
+
+}
+
+
+
+@media (max-width:700px) {
+    .lead {
+        font-size: 0.8rem !important;
+        transition: all ease-in .5s;
+    }
+
+}
+
+@media (max-width:700px) {
+    .lead {
+        font-size: 0.8rem !important;
+        margin-top: 10px;
+    }
+
+}

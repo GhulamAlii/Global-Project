@@ -1,0 +1,72 @@
+.map-container-6{
+    margin: auto 20px;
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-6 iframe{
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+.apply-form {
+        background: #fff;
+        
+        padding: 45px 30px;
+        border-radius: 5px;
+        margin-top: -40px;
+        margin-left: 10px;
+}
+.card-w{
+    width: 35rem !important;
+    margin: 20px auto !important;
+}
+.apply-form h3 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: -8px;
+    margin-bottom: 40px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    height: 2rem !important;
+}
+
+.form-control{
+    height: 50px;
+    padding: 2px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 400;
+}
+.apply-form .form-control {
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #eee;
+    padding-left: 0;
+}
+.apply-form .btn {
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding: 13px 33px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #ffa600 !important;
+    border-color: #fcd527 !important;
+}
+.btn {
+    font-weight: 700;
+    padding: 9px 30px;
+    font-size: 16px;
+    border-radius: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+

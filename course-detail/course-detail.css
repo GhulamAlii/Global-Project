@@ -1,0 +1,49 @@
+.side-bar .single-widget {
+    margin-bottom: 35px;
+}
+.side-bar .features-box {
+    background:  rgb(255, 255, 255);
+    padding: 25px 20px;
+}
+.side-bar .features-box{
+    border-radius: 10px !important;
+}
+.side-bar .single-widget .title {
+    margin-bottom: 25px;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+.side-bar .features-box ul li span {
+    float: right;
+}
+.side-bar .features-box ul li:first-child {
+    margin-top: 0;
+}
+.side-bar .features-box ul li {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px dashed #000;
+    overflow: hidden;
+}
+ul li {
+    list-style: none;
+}
+.img-warpper img{
+   
+        height: auto;
+        max-width: 100%;
+   
+}
+.dt{
+    background-color: rgb(241, 241, 241);
+}
+.style-list li{
+    list-style: square !important;
+}
+
+.adres a{
+    text-decoration: none;
+    color: #000;
+    overflow: hidden;
+}
