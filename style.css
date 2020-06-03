@@ -120,7 +120,14 @@ h1,h2,h3,h4,h5{
 }
 
 /* Footer */
-
+.row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 0px !important;
+        margin-left: -15px;
+}
 footer .container{
     padding: 4%  2%;
 }
